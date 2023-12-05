@@ -1,0 +1,81 @@
+/* Write your code here. */
+@media (min-width: 992px) {
+  .con {
+    background-image: linear-gradient(to right, #1d976c, #93f9b9);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .head {
+    color: #ffffff;
+    font-size: 30px;
+  }
+  .inp-box {
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    border-color: #ffffff;
+    margin-top: 10px;
+  }
+  .lab {
+    font-size: 12px;
+    color: #ffffff;
+  }
+  .but {
+    background-color: #ffffff;
+    color: #219a6f;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: #ffffff;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .image {
+    height: 30vh;
+    width: 30%;
+  }
+}
+@media (max-width: 992px) {
+  .con {
+    background-image: linear-gradient(to right, #1d976c, #93f9b9);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .head {
+    color: #ffffff;
+    font-size: 30px;
+  }
+  .inp-box {
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    border-color: #ffffff;
+    margin-top: 10px;
+  }
+  .lab {
+    font-size: 12px;
+    color: #ffffff;
+  }
+  .but {
+    background-color: #ffffff;
+    color: #219a6f;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: #ffffff;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .image {
+    height: 45vh;
+    width: 51%;
+  }
+}
